@@ -31,14 +31,15 @@ const Projects = (props) => {
             <Row>
               {!props.isLoading &&
                 props.projects &&
-                props.projects.slice(0, 3).map((project, i) => {
+                props.projects.slice(0, 10).map((project, i) => {
                   return (
                     <Col key={i} className="mt-5" sm={6} md={6}>
                       <ProjectCard
                         title={project.title}
                         image={project.image}
                         repoName={project.repoName}
-                        liveUrl={project.liveUrl}
+                        readmeUrl={project.readmeUrl}
+                        liveUrl={project.liveUrls[0]}
                         techs={project.techs}
                       />
                     </Col>

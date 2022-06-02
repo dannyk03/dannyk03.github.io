@@ -30,7 +30,7 @@ const AllProjects = () => {
   return (
     <Fragment>
       <Helmet>
-        <title>Projects | dannyk</title>
+        <title>Projects | dannyk03</title>
         <meta name="description" content="See my projects" />
         <meta property="og:title" content="Danny's Projects" />
         <meta property="og:description" content="See my projects" />
@@ -59,7 +59,8 @@ const AllProjects = () => {
                         title={project.title}
                         image={project.image}
                         repoName={project.repoName}
-                        liveUrl={project.liveUrl}
+                        readmeUrl={project.readmeUrl}
+                        liveUrl={project.liveUrls[0]}
                         techs={project.techs}
                       />
                     </Col>

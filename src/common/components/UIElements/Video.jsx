@@ -64,6 +64,9 @@ const Video = (props) => {
     fetchData();
   }, [sendRequest, props.repoName]);
 
+  if (!videoId) {
+    return null
+  }
   return (
     <div className="youtube-player" data-id={videoId}>
       {isLoading && <Spinner animation="border" />}

@@ -24,12 +24,15 @@ const ProjectCard = (props) => {
     <div className="project-card">
       <Container>
         <Card bg="dark">
-          <Card.Img
-            variant="top"
-            src={props.image}
-            alt={props.title}
-            loading="lazy"
-          />
+          <Link to={`/work/projects/${props.repoName}`}>
+            <Card.Img
+              variant="top"
+              src={props.image}
+              alt={props.title}
+              loading="lazy"
+              style={{ maxHeight: '260px', objectFit: 'cover' }}
+            />
+          </Link>
           <Card.Body>
             <Row>
               <Col>
