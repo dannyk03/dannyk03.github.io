@@ -82,7 +82,9 @@ const Introduction = () => {
           <hr />
           <div className="introduction__brief">
             <p>
-              Hi there! Thanks for visiting my portfolio.
+              Hi there!
+              <br/> 
+              Thanks for visiting my portfolio.
               <br /> I'm{' '}
               <a
                 href="https://www.linkedin.com/in/dannykg"
@@ -92,11 +94,36 @@ const Introduction = () => {
                 Danny Kaganovitch.
               </a>
               <br />
-               I have worked on a wide range of technologies and
-              have worked on projects ranging from small to large scale. I am a
-              self-motivated and self-driven individual who is always looking
+              <br />
+              I have worked on a wide range of technologies and
+              have worked on projects ranging from small to large scale.
+              With in-depth knowledge in C/C++, Python, Java, I am specialized in Javascript based languages and frameworks. I am capable of designing complex systems from ground up.
+              <br />
+              I am committed to
+              Drawing use-case diagrams closely connected with actual clients,
+              Pulling robust db schema, architecturing whole system,
+              Composing tests cases for each use-case,
+              Writing high quality code with latest standard,
+              Maintaining and extending system module by module.
+              <br /> 
+              <br /> 
+              <p>I am proficient in many technologies but below are the most powerful skills,</p>
+              <ul>
+                <li>Backend - <b>Express/NestJS</b></li>
+                <li>Frontend - <b>VueJs and React, React Native, ElectronJS</b></li>
+                <li>DB - <b>MongoDB, MySQL and PostgreSQL</b></li>
+                <li>DevOps - <b>AWS, GCP</b></li>
+              </ul>
+              <br />
+              I have worked with different sizes of teams and companies all around the world, and good at collaborating remotely.
+              I would be happy to add value to your team, product and company for great success.
+
+              <br />
+
+              <br />I am a self-motivated and self-driven individual who is always looking
               for new challenges and opportunities. I love participating in
               hackathons and engaging in communities.
+
             </p>
           </div>
         </div>

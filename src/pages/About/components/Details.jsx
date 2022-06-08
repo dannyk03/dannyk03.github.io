@@ -52,12 +52,22 @@ const Details = () => {
           <div className="details__skills__container">
             <Row>
               <Col sm>
-                <h4>Fulls Stack Development</h4>
+                <h4>Full Stack Development</h4>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm>
+                <h4>DevOps Architect</h4>
               </Col>
             </Row>
             <Row>
               <Col sm>
                 <h4>Mobile Application Development</h4>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm>
+                <h4>Strong Communication</h4>
               </Col>
             </Row>
           </div>
