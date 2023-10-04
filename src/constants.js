@@ -184,6 +184,25 @@ export const SERVICES = [
 
 export const PROJECTS = [
   {
+    "id":"zap-automation",
+    "tag":"Zapier + Webflow + REX",
+    "title": "Webflow REX Automation via Zapier",
+    "landing": "https://i.ibb.co/YBrWPDD/image.png",
+    "images":[
+      "https://i.ibb.co/YBrWPDD/image.png",
+      "https://i.ibb.co/xYd4G6g/Screenshot-from-2023-10-04-16-46-37.png",
+      "https://i.ibb.co/HYPRK1P/Screenshot-from-2023-10-04-16-45-35.png",
+    ],
+    "descOverview": "Automaitc REX generation for Webflow CMS. <br/> This is using Zapier and Webflow API to generate REX for Webflow CMS. Once there is any changes from REX, Zapier triggers the zap to sync with Webflow. There is a custom API listener to handle the requests and do all heavy lifting. <br/> This is a private project.",
+    "link": "https://app.rexsoftware.com/",
+    "techStack": [
+       "zapier", "rex", "webflow", "NodeJS", "typescript", ""
+    ],
+    "utilities": [
+    ],
+    "active": true
+  },
+  {
     "id":"cap-business",
     "tag":"NestJS + ReactJS",
     "title": "Cap Business Plan/Decision Application",
