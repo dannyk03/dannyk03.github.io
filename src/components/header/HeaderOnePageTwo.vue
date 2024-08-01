@@ -66,12 +66,12 @@
       <div class="social-share-inner">
         <socialTwo />
       </div>
-      <a
+      <!-- <a
         class="rn-btn"
         :href="CONSTS.MAIN.basic.calendlyLink"
       >
         <span>Let's CALL</span>
-      </a>
+      </a> -->
       <v-btn
         icon
         class="ma-0 pa-0 hidden-md-and-up"

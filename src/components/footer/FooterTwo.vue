@@ -16,7 +16,7 @@
           </div>
         </v-col>
         <!-- End .col -->
-        <v-col lg="4" md="4" sm="6" cols="12" class="d-flex align-center justify-space-between">
+        <!-- <v-col lg="4" md="4" sm="6" cols="12" class="d-flex align-center justify-space-between">
           <div class="inner text-center">
             <socialTwo />
           </div>
@@ -26,7 +26,7 @@
           >
             <span>Let's CALL</span>
           </a>
-        </v-col>
+        </v-col> -->
         <!-- End .col -->
         <v-col lg="4" md="4" sm="12" cols="12">
           <div class="inner text-md-right text-center mt_md--20 mt_sm--20">
