@@ -20,12 +20,12 @@
           <div class="inner text-center">
             <socialTwo />
           </div>
-          <a
+          <!-- <a
             class="rn-btn"
             :href="CONSTS.MAIN.basic.calendlyLink"
           >
             <span>Let's CALL</span>
-          </a>
+          </a> -->
         </v-col>
         <!-- End .col -->
         <v-col lg="4" md="4" sm="12" cols="12">
